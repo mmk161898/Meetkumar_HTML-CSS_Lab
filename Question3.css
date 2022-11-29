@@ -1,0 +1,39 @@
+body {
+  margin: 0%;
+}
+
+div {
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  background-color: rgba(70, 131, 180, 0.35);
+}
+
+button {
+  background-color: rgb(141, 84, 195);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  width: 30%;
+}
+
+button:hover {
+  background-color: darkslategray;
+  cursor: pointer;
+}
